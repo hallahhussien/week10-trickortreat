@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hallahtrickortreat:war exploded">
+    <output-path>$PROJECT_DIR$/target/hallah-trickortreat</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="hallahtrickortreat" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax:javaee-web-api:7.0" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.0.0-M4" />
+          <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.0.0-M2" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.0.0-M4" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/hallah-trickortreat/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="hallahtrickortreat/web/Web" />
+    </root>
+  </artifact>
+</component>

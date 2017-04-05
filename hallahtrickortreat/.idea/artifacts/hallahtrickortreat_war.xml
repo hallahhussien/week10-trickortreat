@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hallahtrickortreat:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="hallah-trickortreat.war">
+      <element id="artifact" artifact-name="hallahtrickortreat:war exploded" />
+    </root>
+  </artifact>
+</component>
